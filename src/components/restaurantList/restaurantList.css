@@ -1,0 +1,30 @@
+.restaurantList
+{
+    color: #FFA800;
+    display: flex;
+    margin-bottom: 6vh;
+}
+.restaurantImage
+{
+    position: flex;
+    border-radius: 3vw;
+    width: 25vw;
+    height: 50vh;
+}
+.restaurantCard
+{
+    color: #FFA800;
+    background-color: #FFA800;
+    margin-top: 2vh;
+    border: none;
+}
+
+.restaurantName
+{
+    position: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.6vw;
+    color: #4A4A4A;
+}

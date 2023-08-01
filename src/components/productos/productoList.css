@@ -1,0 +1,72 @@
+.productoList
+{
+    display: flex;
+    margin-top: 8vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width:95vw;
+    /* background: #F54746; */
+    background: #FFA800;
+    border-radius: 7vw;
+    position: flex;
+    padding: 2vh;
+    flex-direction: column;
+}
+
+.productoCard
+{
+    background: #FFA800;
+    border: none;
+    display: flex;
+    border-radius: 10vw;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+
+.platoImage
+{
+    width: 15vw;
+    height: 30vh;
+    border-radius: 4vw;
+}
+
+.productoName
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 2vh;
+    font-size: 2.2vh;
+    color: #000;
+    padding: 0;
+}
+
+.carousel-arrow-icon
+{
+  margin-bottom: 8vh;
+  font-size: 2vh;
+}
+
+.productoList h1
+{  
+    padding-top: 1vh;
+    color: #000;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.carousel-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -1.5vh;
+  }
+
+  .carousel-button-prev {
+    margin-right: auto;
+  }
+  
+  .carousel-button-next {
+    margin-left: auto;
+  }

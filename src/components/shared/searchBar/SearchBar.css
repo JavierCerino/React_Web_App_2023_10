@@ -1,0 +1,27 @@
+.SearchBar {
+    position: flex;
+    height: 5vh;
+    width: 50vw;
+    margin-top: 2vh;
+    margin-left: 24vw;
+    display: flex;
+}
+
+.SearchBar .form-control {
+    border: none;
+    background-color: #F54746;
+    border-radius: 3vw;
+    color: azure;
+    
+}
+
+.SearchBar .form-control::placeholder {
+    color: azure;
+}
+  
+.SearchBar .btn {
+    border: none;
+    background-color: #F54746;
+    color: white;
+    border-radius: 3vw;
+}

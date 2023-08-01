@@ -1,0 +1,9 @@
+#footerImage {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Footer {
+  margin-top: 100rem;
+}

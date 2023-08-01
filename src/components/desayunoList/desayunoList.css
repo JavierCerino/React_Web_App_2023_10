@@ -1,0 +1,71 @@
+.desayunoList
+{
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width:95vw;
+    background: #F54746;
+    border-radius: 7vw;
+    position: flex;
+    padding: 2vh;
+    flex-direction: column;
+}
+
+.platoCard
+{
+    background-color: #F54746;
+    border: none;
+    display: flex;
+    border-radius: 10vw;
+    margin-bottom: 3vh;
+}
+
+.platoImage
+{
+    width: 15vw;
+    height: 30vh;
+    border-radius: 4vw;
+}
+
+.platoName
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 1vh;
+    font-size: 2.2vh;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.carousel-arrow-icon
+{
+  margin-bottom: 8vh;
+  font-size: 2vh;
+}
+
+.desayunoList h1
+{   padding-left: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 3.5vh;
+}
+
+.carousel-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -1.5vh;
+  }
+
+  .carousel-button-prev {
+    margin-right: auto;
+  }
+  
+  .carousel-button-next {
+    margin-left: auto;
+  }

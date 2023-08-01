@@ -1,0 +1,106 @@
+.Externo {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.PrincipalContenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.PrincipalImagen {
+    display: flex;
+    position: flex;
+    justify-content: "center";
+    align-items: "center"
+}
+
+
+.descriptionCard
+{
+    position: relative;
+    background-color: #F54746; 
+    width: auto;
+    margin-left: -10rem;
+    height: 41rem;
+    border-radius: 83px;
+    margin-top: 10rem;
+    z-index: 1;
+}
+
+/*
+
+Aqui empieza lo de arriba
+
+*/
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.columnas{
+    padding: 0;
+}
+
+.tarejetaLogo{
+    background-color: #F54746;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 80vh;
+    margin-left: 6vw;
+    margin-top: 5vh;
+}
+
+.imagenLogo{
+    position: flex;
+    width: 42vh;
+    height: 16.1vw;
+    margin-left: 2.6vw;
+    margin-top: 4vh;
+}
+
+.principalText{
+    position: relative;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: justify;
+    padding-left: 1vw;
+    padding-right: 36vw;
+    font-weight: 500;
+    font-size: 3.2vh;
+    line-height: 5vh;
+    width: 140vh;
+}
+
+.tarjetaCamarones{
+    background-color: #FFA800;
+    height: 90vh;
+    width: 44vw;
+    border-radius: 2vw;
+    overflow: hidden;
+}
+
+.firstImage{
+    position: relative;
+    object-fit: contain;
+    width: 38vw;
+    /* height: auto;
+    width: auto; */
+    /* width: 35rem;
+    height: 55rem; */
+    padding: 0;
+    padding-left: 10vh;
+    margin-left: 12vh;
+}

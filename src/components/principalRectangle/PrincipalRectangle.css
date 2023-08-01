@@ -1,0 +1,74 @@
+/* .mainRectangle {
+    justify-content: center; 
+    align-items: center;
+    box-sizing: border-box;
+    
+    background: #FFA800;
+    padding: 0;
+} */
+
+
+.mainRectangle {
+    position: relative;
+    background: #FFA800;
+    margin-top: 12vh;
+    border-radius: 15vh;
+    width: 100vw;
+    height: 210vh;
+    overflow: hidden;
+}
+
+.textHambre {
+    position: relative;
+    object-fit: contain;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.textHambre h1
+{
+    color:#4A4A4A;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vh;
+    margin-top: 3vh;;
+}
+
+.iconForm {
+    font-size: 2vw;
+}
+
+.buttonDown {
+    width: 20vw;
+    height: 4vw;
+    border-radius: 1vw;
+    background: #F54746;
+    outline-color: #F54746;
+    border: none;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.buttonDown:hover {
+    background: #F54746;
+    outline-color: #F54746;
+    border: none;
+}
+
+.centerThings {
+    display: flex;
+    justify-content: center;
+}
+
+.redHorizontalList
+{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 90rem;
+    background: #F54746;
+    border-radius: 2rem;
+    position: flex;
+} 
